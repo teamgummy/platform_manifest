@@ -169,6 +169,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="gummy" revision="ics" />
@@ -286,7 +287,8 @@
   <!-- STS-Dev-Team replacements -->
   </project>
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="hc" revision="ics-hybrid" />
-  <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="MotoICS" />
+  <!-- Needs to be chery pciked from the aokp brach on STS-DEV-Team  
+  <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="ics" /> -->
   <project path="system/core" name="platform_system_core" remote="sts" revision="ics" />
   
   <!-- STS-Dev-Team additions -->

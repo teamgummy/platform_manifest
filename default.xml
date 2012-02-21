@@ -12,6 +12,9 @@
 		
   <remote name="sts"
        	fetch="git://github.com/STS-Dev-Team/" />
+
+  <remote name="cd"
+       	fetch="git://github.com/CyanogenDefy/" />
 		
   <remote name="hc"
         fetch="git://github.com/Hashcode/" />
@@ -277,10 +280,11 @@
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" revision="ics" />  
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
   <project path="external/vim" name="android_external_vim" remote="cm" revision="master" />
-  <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm" revision="ics" />
+
 
   <!-- other additions -->
   <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" />
+  <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cd" revision="ics" />
 
 
   <!-- STS-Dev-Team replacements -->

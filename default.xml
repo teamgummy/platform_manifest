@@ -9,6 +9,19 @@
       	 
   <remote name="cm"
        	fetch="git://github.com/CyanogenMod/" />
+		
+  <remote name="sts"
+       	fetch="git://github.com/STS-Dev-Team/" />
+		
+  <remote name="hc"
+        fetch="git://github.com/Hashcode/" />
+		
+  <remote name="mm"
+        fetch="git://github.com/MotoMagic/" />
+		
+  <remote  name="omapzoom"
+        fetch="git://git.omapzoom.org/"
+        review="review.omapzoom.org" />
 
   <default revision="refs/tags/android-4.0.3_r1"
        	remote="aosp"
@@ -152,7 +165,6 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
@@ -172,7 +184,6 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
@@ -237,7 +248,6 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -255,5 +265,44 @@
   <project path="packages/apps/LibertySettings" name="packages_apps_LibertySettings" remote="gummy" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="gummy" revision="ics" />
+  
+  <!-- moto stuff -->
+  
+  <!-- CM replacements -->
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="ics" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="ics" />
+  
+  <!-- CM additions -->
+  <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
+  <project path="external/nano" name="android_external_nano" remote="cm" revision="ics" />
+  <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" revision="ics" />  
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
+  <project path="external/vim" name="android_external_vim" remote="cm" revision="master" />
+  <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm" revision="ics" />
+
+  <!-- other additions -->
+  <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" />
+
+
+  <!-- STS-Dev-Team replacements -->
+  </project>
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="hc" revision="ics-hybrid" />
+  <!-- Needs to be chery pciked from the aokp brach on STS-DEV-Team  
+  <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="ics" /> -->
+  <project path="system/core" name="platform_system_core" remote="sts" revision="ics" />
+  
+  <!-- STS-Dev-Team additions -->
+  <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="sts" revision="ics-aosp" />
+  <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="sts" revision="ics" />
+  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="sts" revision="ics-aosp" />
+  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="sts" revision="ics" />
+  <project path="device/motorola/solana" name="android_device_motorola_solana" remote="sts" revision="ics" />
+  <project path="vendor/motorola/solana" name="android_vendor_motorola_solana" remote="sts" revision="ics" />
+  <project path="vendor/verizon" name="proprietary_vendor_verizon" remote="sts" revision="ics" />
+  <project path="hardware/ti/camera" name="android_hardware_ti_camera" remote="hc" revision="ics-hybrid-solana" />
+  <project path="hardware/ti/syslink" name="android_hardware_ti_syslink" remote="hc" revision="ics" />
+  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="hc" revision="ics" />
+  
 
 </manifest>

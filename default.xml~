@@ -255,7 +255,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
  
-  <project path="vendor/samsung" name="vendor_samsung" remote="gummy" revision="master" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="gummy" revision="master" /> 
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="master" />
 
  
@@ -283,7 +283,7 @@
 
 
   <!-- other additions -->
-<!--  <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" /> -->
+  <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" />
   <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cd" revision="ics" />
 
 
@@ -293,13 +293,13 @@
   <project path="system/core" name="platform_system_core" remote="sts" revision="ics" />
   
   <!-- STS-Dev-Team additions -->
-<!--   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="sts" revision="ics-aosp" />
+  <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="sts" revision="ics-aosp" />
   <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="sts" revision="ics" />
-  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="sts" revision="ics-aosp" />
-  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="sts" revision="ics" />
+  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="master" />
+  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="master" />
   <project path="device/motorola/solana" name="android_device_motorola_solana" remote="sts" revision="ics" />
   <project path="vendor/motorola/solana" name="android_vendor_motorola_solana" remote="sts" revision="ics" />
-  <project path="vendor/verizon" name="proprietary_vendor_verizon" remote="sts" revision="ics" /> -->
+  <project path="vendor/verizon" name="proprietary_vendor_verizon" remote="sts" revision="ics" />
   <project path="hardware/ti/camera" name="android_hardware_ti_camera" remote="hc" revision="ics-hybrid-solana" />
   <project path="hardware/ti/syslink" name="android_hardware_ti_syslink" remote="hc" revision="ics" />
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />

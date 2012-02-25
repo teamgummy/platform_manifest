@@ -269,6 +269,10 @@
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="gummy" revision="ics" />
   
   <!-- moto stuff -->
+
+  <!-- Team Gummy -->
+  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics" />
   
   <!-- CM replacements -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="ics" />
@@ -295,8 +299,6 @@
   <!-- STS-Dev-Team additions -->
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="sts" revision="ics-aosp" />
   <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="sts" revision="ics" />
-  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="master" />
-  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="master" />
   <project path="device/motorola/solana" name="android_device_motorola_solana" remote="sts" revision="ics" />
   <project path="vendor/motorola/solana" name="android_vendor_motorola_solana" remote="sts" revision="ics" />
   <project path="vendor/verizon" name="proprietary_vendor_verizon" remote="sts" revision="ics" />

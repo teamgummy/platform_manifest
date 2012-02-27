@@ -262,7 +262,7 @@
   <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="gummy" revision="master" />
   <project path="packages/apps/LibertySettings" name="packages_apps_LibertySettings" remote="gummy" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="gummy" revision="ics" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="ics" />
   
   <!-- moto stuff -->
 

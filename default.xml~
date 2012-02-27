@@ -252,10 +252,8 @@
   <project path="system/extras" name="android_system_extras" remote="cm" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
- 
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" /> 
   <project path="vendor/samsung" name="vendor_samsung" remote="gummy" revision="master" /> 
-  <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
 
  
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
@@ -273,6 +271,7 @@
   <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="MotoICS"/>
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="MotoICS" />
+  <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
   
   <!-- CM replacements -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="ics" />

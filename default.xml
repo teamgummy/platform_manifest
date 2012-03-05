@@ -158,7 +158,7 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="ics" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />

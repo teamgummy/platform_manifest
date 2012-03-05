@@ -10,11 +10,14 @@
   <remote name="cm"
        	fetch="git://github.com/CyanogenMod/" />
 
+  <remote name="kejar31"
+        fetch="git://github.com/kejar31/" />
+
   <default revision="refs/tags/android-4.0.3_r1"
        	remote="aosp"
        	sync-j="4" />
 
-  <project path="build" name="android_build" revision="master" remote="gummy">
+  <project path="build" name="android_build" revision="master" remote="kejar31">
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />

@@ -21,7 +21,6 @@
   <project path="bionic" name="android_bionic" remote="cm" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="Candroid_bootable_recovery" remote="cm" revision="ics" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />

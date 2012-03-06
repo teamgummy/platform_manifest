@@ -9,6 +9,9 @@
       	 
   <remote name="cm"
        	fetch="git://github.com/CyanogenMod/" />
+
+  <remote name="kejar31"
+        fetch="git://github.com/kejar31/" />
 		
   <remote name="sts"
        	fetch="git://github.com/STS-Dev-Team/" />
@@ -30,14 +33,14 @@
        	remote="aosp"
        	sync-j="4" />
 
-  <project path="build" name="android_build" revision="MotoICS" remote="gummy">
+  <project path="build" name="android_build" revision="ics" remote="kejar31">
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="gummy" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="ics" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -183,7 +186,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
@@ -194,6 +197,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="gummy" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -246,6 +250,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <project path="packages/wallpapers/GummyBeam" name="packages_wallpapers_GummyBeam" remote="gummy" revision="master" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
@@ -262,7 +267,6 @@
   <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="gummy" revision="master" />
   <project path="packages/apps/LibertySettings" name="packages_apps_LibertySettings" remote="gummy" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="ics" />
   
   <!-- moto stuff -->
 

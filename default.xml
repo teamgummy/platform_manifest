@@ -3,6 +3,9 @@
 
   <remote name="aosp"
        	fetch="https://android.googlesource.com/" />
+       	
+  <remote name="github"
+       	fetch="git://github.com/" />
     	 
   <remote name="gummy"
        	fetch="git://github.com/teamgummy/" />
@@ -278,6 +281,11 @@
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
   
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="device/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
+  
   <!-- CM replacements -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="ics" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="ics" />
@@ -310,5 +318,7 @@
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="hc" revision="ics" />
   
+  <!-- 2nd gen motorola replacements -->
+  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
 
 </manifest>

@@ -1,2 +1,2 @@
-$ repo init -u https://github.com/teamgummy/platform_manifest.git -b MotoICS
+$ repo init -u https://github.com/teamgummy/platform_manifest.git -b Omap3ICS
 $ repo sync

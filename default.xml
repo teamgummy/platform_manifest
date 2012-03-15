@@ -276,7 +276,7 @@
   <!-- Team Gummy -->
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="ics" />
   <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="MotoICS"/>
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="gummy" revision="ics"/>
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
   
@@ -305,7 +305,7 @@
 
   <!-- STS-Dev-Team replacements -->
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="hc" revision="ics-hybrid" />
-  <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="MotoICS" />
+  <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="Omap3ICS" />
   <project path="system/core" name="platform_system_core" remote="sts" revision="ics" />
   
   <!-- STS-Dev-Team additions -->

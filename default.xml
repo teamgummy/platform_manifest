@@ -323,5 +323,6 @@
   <!-- 2nd gen motorola replacements -->
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
   <project path="system/core" name="android_system_core" remote="hc" revision="ics" />
+    <project path="bionic" name="tpruvot/android_bionic" remote="github" revision="ics" />
 
 </manifest>

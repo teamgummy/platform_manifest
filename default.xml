@@ -193,7 +193,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
@@ -324,6 +323,7 @@
   <!-- 2nd gen motorola replacements -->
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
   <project path="system/core" name="android_system_core" remote="hc" revision="ics" />
-    
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="ics" />
+  
 
 </manifest>

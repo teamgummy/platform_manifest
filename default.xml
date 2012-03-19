@@ -76,7 +76,6 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="gummy" revision="ics"/>
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
@@ -198,7 +197,6 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="gummy" revision="master" />

@@ -256,7 +256,7 @@
  
   <project path="vendor/samsung" name="vendor_samsung" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="master" />
-  <project path="vendor/Gummy/bot" name=" pseudo_buildbot" remote="gummy" revision="master" />
+  <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="master" />
  
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
   <project path="system/su" name="system_su" remote="gummy" revision="master" />

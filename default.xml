@@ -254,10 +254,10 @@
   <project path="packages/wallpapers/GummyBeam" name="packages_wallpapers_GummyBeam" remote="gummy" revision="master" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="ics" / />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="ics" />
-  <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="ics" / />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="ics" / />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" /> 
   <project path="vendor/samsung" name="vendor_samsung" remote="gummy" revision="master" /> 
 

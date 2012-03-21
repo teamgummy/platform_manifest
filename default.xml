@@ -53,13 +53,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="gummy" revision="ics" />
-  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="gummy" revision="master" />
-  <project path="device/samsung/crespo4g" name="device_samsung_crespo4g" remote="gummy" revision="master" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="gummy" revision="master" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="gummy" revision="master" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="gummy" revision="master" />
-  <project path="device/moto/wingray/" name="device_moto_wingray" remote="gummy" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -272,13 +265,15 @@
   <!-- moto stuff -->
 
   <!-- Team Gummy -->
+  <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="gummy" revision="ics" />
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="ics" />
   <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="MotoICS"/>
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
-  
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
+ 
+  <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="gummy" revision="master" /> 
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="kejar31" revision="ics" />
   <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
   <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />

@@ -271,7 +271,10 @@
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="MotoICS"/>
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
- 
+
+
+  <project path="device/motorola/solana" name="android_device_motorola_solana" remote="gummy" revision="ics" />
+  <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="gummy" revision="ics" />   
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="gummy" revision="master" /> 
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
   <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
@@ -305,8 +308,8 @@
   
   <!-- STS-Dev-Team additions -->
   <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="sts" revision="ics" />
-  <project path="device/motorola/solana" name="android_device_motorola_solana" remote="sts" revision="ics" />
   <project path="vendor/motorola/solana" name="android_vendor_motorola_solana" remote="sts" revision="ics" />
+  <project path="vendor/motorola/maserati" name="android_vendor_motorola_maserati" remote="sts" revision="ics" />
   <project path="vendor/verizon" name="proprietary_vendor_verizon" remote="sts" revision="ics" />
   <project path="hardware/ti/camera" name="android_hardware_ti_camera" remote="hc" revision="ics-hybrid-solana" />
   <project path="hardware/ti/syslink" name="android_hardware_ti_syslink" remote="hc" revision="ics" />

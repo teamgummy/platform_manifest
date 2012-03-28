@@ -17,7 +17,7 @@
        	remote="aosp"
        	sync-j="4" />
 
-  <project path="build" name="android_build" revision="ics" remote="kejar31">
+  <project path="build" name="android_build" revision="ics" remote="gummy">
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />

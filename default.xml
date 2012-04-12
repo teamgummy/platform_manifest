@@ -268,6 +268,7 @@
   <!-- moto stuff -->
 
   <!-- Team Gummy -->
+  <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="gummy" revision="ics" />
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="gummy" revision="ics" />
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="ics" />
   <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics" />
@@ -310,7 +311,6 @@
   <!-- <project path="system/core" name="platform_system_core" remote="sts" revision="ics" /> -->
   
   <!-- STS-Dev-Team additions -->
-  <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="sts" revision="ics" />
   <project path="vendor/motorola/solana" name="android_vendor_motorola_solana" remote="sts" revision="ics" />
   <project path="vendor/motorola/maserati" name="android_vendor_motorola_maserati" remote="sts" revision="ics" />
   <project path="vendor/verizon" name="proprietary_vendor_verizon" remote="sts" revision="ics" />

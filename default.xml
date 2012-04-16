@@ -286,6 +286,8 @@
   <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
   <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
+  <project path="device/motorola/venus2" name="android_device_motorola_venus2" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/venus2" name="android_vendor_motorola_venus2" remote="gummy" revision="ics" />  
   <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="master" />
   <!-- CM replacements -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="ics" />

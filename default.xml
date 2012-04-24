@@ -10,7 +10,7 @@
   <remote name="cm"
        	fetch="git://github.com/CyanogenMod/" />
 
-  <remote name "github"
+  <remote name="github"
         fetch="git://github.com/" /> 
 
   <remote name="kejar31"

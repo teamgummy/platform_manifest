@@ -48,7 +48,7 @@
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="gummy" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="gummy" revision="ics" />
   <project path="device/samsung/vibrantmtd" name="android_device_samsung_vibrantmtd" remote="gummy" revision="master" />
-  <project path="device/asus/tf201" name="android_device_asus_rf201" remote="gummy" revision="ics" />
+  <project path="device/asus/tf201" name="android_device_asus_tf201" remote="gummy" revision="ics" />
   <project path="device/amazon/otter" name="device-amazon-otter" remote="gummy" revision="ics" />
   <!-- <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="gummy" revision="ics" /> -->
   <project path="device/moto/wingray/" name="device_moto_wingray" remote="gummy" revision="master" />

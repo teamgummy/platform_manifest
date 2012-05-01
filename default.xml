@@ -50,7 +50,11 @@
   <project path="device/samsung/vibrantmtd" name="android_device_samsung_vibrantmtd" remote="gummy" revision="master" />
   <project path="device/asus/tf201" name="android_device_asus_tf201" remote="gummy" revision="ics" />
   <project path="device/amazon/otter" name="device-amazon-otter" remote="gummy" revision="ics" />
-  <!-- <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="gummy" revision="ics" /> -->
+  <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="gummy" revision="ics" /> 
+  <project path="device/samsung/p4" name="android_device_samsung_p4" remote="gummy" revision="ics" />
+  <project path="device/samsung/p4tmo" name="android_device_samsung_p4tmo" remote="gummy" revision="ics" />
+  <project path="device/samsung/p4vzw" name="android_device_samsung_p4vzw" remote="gummy" revision="ics" />
+  <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="gummy" revision="ics" />
   <project path="device/moto/wingray/" name="device_moto_wingray" remote="gummy" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />

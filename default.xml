@@ -36,8 +36,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="gummy" revision="master" />
-  <project path="device/samsung/crespo4g" name="device_samsung_crespo4g" remote="gummy" revision="master" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="gummy" revision="ics" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="gummy" revision="ics" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="gummy" revision="master" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="gummy" revision="master" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="gummy" revision="master" />
@@ -286,6 +286,7 @@
   <!-- inline kernels -->
   <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap.git" remote="github" revision="4AI.5" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus.git" remote="github" revision="lk-stable-3016" />
+  <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="gummy" revision="ics" />
 
 
 </manifest>

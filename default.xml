@@ -50,7 +50,6 @@
   <project path="device/samsung/vibrantmtd" name="android_device_samsung_vibrantmtd" remote="gummy" revision="master" />
   <project path="device/asus/tf201" name="android_device_asus_tf201" remote="gummy" revision="ics" />
   <project path="device/amazon/otter" name="device-amazon-otter" remote="gummy" revision="ics" />
-  <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap.git" remote="github" revision="4AI.5" />
   <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="gummy" revision="ics" /> 
   <project path="device/samsung/p4" name="android_device_samsung_p4" remote="gummy" revision="ics" />
   <project path="device/samsung/p4tmo" name="android_device_samsung_p4tmo" remote="gummy" revision="ics" />
@@ -283,5 +282,10 @@
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="ics" />
   <!-- <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="gummy" revision="ics" /> -->
+  
+  <!-- inline kernels -->
+  <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap.git" remote="github" revision="4AI.5" />
+  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus.git" remote="github" revision="lk-stable-3016" />
+
 
 </manifest>

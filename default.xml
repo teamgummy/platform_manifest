@@ -55,7 +55,8 @@
   <project path="device/samsung/p4tmo" name="android_device_samsung_p4tmo" remote="gummy" revision="ics" />
   <project path="device/samsung/p4vzw" name="android_device_samsung_p4vzw" remote="gummy" revision="ics" />
   <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="gummy" revision="ics" />
-  <project path="device/moto/wingray/" name="device_moto_wingray" remote="gummy" revision="master" />
+  <project path="device/moto/wingray/" name="android_device_moto_wingray" remote="gummy" revision="ics" />
+  <project path="device/moto/stingray/" name="android_device_moto_stingray" remote="gummy" revision="ics" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -287,6 +288,7 @@
   <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap.git" remote="github" revision="4AI.5" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus.git" remote="github" revision="lk-stable-3016" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="gummy" revision="ics" />
+  <project path="kernel/motorola/stingray" name="motorola-kernel-stingray" remote="gummy" revision="ics" />
 
 
 </manifest>

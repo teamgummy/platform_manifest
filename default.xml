@@ -40,6 +40,7 @@
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="gummy" revision="ics" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="gummy" revision="master" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="gummy" revision="master" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="gummy" revision="ics" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="gummy" revision="master" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="gummy" revision="mod-4.0.3" />
   <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" remote="gummy" revision="ics" />

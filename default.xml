@@ -294,7 +294,7 @@
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="gummy" revision="ics" />
   <project path="kernel/motorola/stingray" name="motorola-kernel-stingray" remote="gummy" revision="ics" />
   <project path="kernel/samsung/aries" name="GlitchKernel/Glitch" remote="github" revision="V14" />
-  <project path="kernel/asus/tf201" name="motley-git/TF201-Kernel" remote="github" revision="master" />
+  <!--<project path="kernel/asus/tf201" name="motley-git/TF201-Kernel" remote="github" revision="master" />-->
 
 
 </manifest>

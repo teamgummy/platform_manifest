@@ -32,7 +32,7 @@
         fetch="git://git.omapzoom.org/"
         review="review.omapzoom.org" />
 
-  <default revision="refs/tags/android-4.0.3_r1"
+  <default revision="refs/tags/android-4.0.4_r1.1"
        	remote="aosp"
        	sync-j="4" />
 
@@ -261,7 +261,6 @@
   <project path="system/su" name="system_su" remote="gummy" revision="master" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
   <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="gummy" revision="master" />
-  <project path="packages/apps/LibertySettings" name="packages_apps_LibertySettings" remote="gummy" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="vendor/lge" name="vendor_lge" remote="gummy" revision="ics" />  
   
@@ -300,7 +299,12 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
   <project path="external/vim" name="android_external_vim" remote="cm" revision="master" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="ics" />
-
+  
+    <!-- Tmobile Theme Manager - from CM9 -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="ics" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="ics" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="ics" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="ics" />
 
   <!-- other additions -->
   <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" />

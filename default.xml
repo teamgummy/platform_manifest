@@ -49,6 +49,7 @@
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="gummy" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="gummy" revision="ics" />
   <project path="device/samsung/vibrantmtd" name="android_device_samsung_vibrantmtd" remote="gummy" revision="master" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="gummy" revision="ics" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="gummy" revision="ics" />
   <project path="device/asus/tf201" name="device_asus_tf201" remote="gummy" revision="master" />
   <project path="device/amazon/otter" name="device-amazon-otter" remote="gummy" revision="ics" />
@@ -302,7 +303,7 @@
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="gummy" revision="ics" />
   <project path="kernel/motorola/stingray" name="motorola-kernel-stingray" remote="gummy" revision="ics" />
   <project path="kernel/samsung/aries" name="GlitchKernel/Glitch" remote="github" revision="V14" />
+  <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="github" revision="ics" />
   <project path="kernel/asus/tf201" name="asus_kernel_tf201" remote="gummy" revision="ics" />
-
 
 </manifest>

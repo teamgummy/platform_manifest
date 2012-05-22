@@ -330,9 +330,9 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="hc" revision="ics" />
   
   <!-- 2nd gen motorola replacements -->
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
+  <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
   <project path="system/core" name="android_system_core" remote="hc" revision="ics" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="ics" />
+  <project path="hardware/libhardware" name="CM9-D2G/android_hardware_libhardware" remote="github" revision="ics" />
   
 
 </manifest>

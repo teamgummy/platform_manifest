@@ -306,6 +306,7 @@
   <project path="kernel/motorola/stingray" name="motorola-kernel-stingray" remote="gummy" revision="ics" />
   <project path="kernel/samsung/aries" name="GlitchKernel/Glitch" remote="github" revision="V14" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="github" revision="ics" />
+  <project path="kernel/asus/tf101" name="asus_kernel_tf101" remote="gummy" revision="ics" />
   <project path="kernel/asus/tf201" name="asus_kernel_tf201" remote="gummy" revision="ics" />
 
 </manifest>

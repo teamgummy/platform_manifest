@@ -302,7 +302,7 @@
   
   <!-- inline kernels -->
   <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap.git" remote="github" revision="4AI.5" />
-  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus.git" remote="github" revision="lk-stable-3016" />
+  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus.git" remote="github" revision="lk-stable-ndk" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="gummy" revision="ics" />
   <project path="kernel/motorola/stingray" name="motorola-kernel-stingray" remote="gummy" revision="ics" />
   <project path="kernel/samsung/aries" name="GlitchKernel/Glitch" remote="github" revision="V14" />

@@ -336,7 +336,7 @@
   <!-- 2nd gen motorola replacements -->
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="cm9-d2g" revision="ics" />
   <project path="system/core" name="android_system_core" remote="hc" revision="ics" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="gummy" revision="ics" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="ics" />
   
 
 </manifest>

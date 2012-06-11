@@ -321,7 +321,7 @@
 
   <!-- STS-Dev-Team replacements -->
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="hc" revision="ics-hybrid" />
-  <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="MotoICS" />
+  <project path="frameworks/base" name="frameworks_base" remote="gummy" revision="Omap3ICS" />
   <!-- <project path="system/core" name="platform_system_core" remote="sts" revision="ics" /> -->
   
   <!-- STS-Dev-Team additions -->

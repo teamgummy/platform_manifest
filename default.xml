@@ -88,7 +88,7 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="master" />
-  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/embunit" name="external_embunit" remote="gummy" revision="ics" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />

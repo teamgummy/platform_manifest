@@ -274,7 +274,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="gummy" revision="ics" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="ics" />
-  <project path="system/media" name="platform/system/media" />
+  <project path="system/media" name="system_media" remote="gummy" revision="ics" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
  

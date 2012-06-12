@@ -162,7 +162,7 @@
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="external_srec" remote="gummy" revision="ics" />
-  <project path="external/srtp" name="platform/external/srtp" />
+  <project path="external/srtp" name="external_srtp" remote="gummy" revision="ics" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />

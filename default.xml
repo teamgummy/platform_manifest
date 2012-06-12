@@ -148,7 +148,7 @@
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="android_external_oprofile" remote="gummy" revision="ics" />
   <project path="external/pcre" name="platform/external/pcre" />
-  <project path="external/ping" name="platform/external/ping" />
+  <project path="external/ping" name="external_ping" remote="gummy" revision="ics" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />

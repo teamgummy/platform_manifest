@@ -158,7 +158,7 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="android_external_skia" remote="gummy" revision="master" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
+  <project path="external/sonivox" name="external_sonivox" remote="gummy" revision="ics" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="external_srec" remote="gummy" revision="ics" />

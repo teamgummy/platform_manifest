@@ -145,7 +145,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/openssl" name="external_openssl" remote="gummy" revision="ics" />
   <project path="external/oprofile" name="android_external_oprofile" remote="gummy" revision="ics" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="external_ping" remote="gummy" revision="ics" />

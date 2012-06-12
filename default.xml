@@ -207,7 +207,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
-  <project path="libcore" name="libcore" remote="gummy" revision="ics"/>
+  <project path="libcore" name="android_libcore" remote="gummy" revision="ics"/>
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="gummy" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />

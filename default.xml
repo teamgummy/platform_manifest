@@ -284,6 +284,7 @@
   <project path="vendor/asus/tf101" name="vendor_asus_tf101" remote="gummy" revision="ics" />
   <project path="vendor/asus/tf201" name="vendor_asus_tf201" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="master" />
+  <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="master" />
 
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
   <project path="system/su" name="system_su" remote="gummy" revision="master" />

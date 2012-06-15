@@ -229,7 +229,7 @@
   <project path="packages/apps/Grape" name="packages_apps_Grape" remote="gummy" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="gummy" revision="master" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Orange" name="packages_apps_Orange" remote="gummy" revision="master"/>

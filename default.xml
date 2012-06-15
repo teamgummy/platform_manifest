@@ -278,6 +278,7 @@
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="MotoICS"/>
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="Omap3ICS" />
+  <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="master" />
 
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="gummy" revision="master" /> 
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />

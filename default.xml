@@ -173,7 +173,7 @@
   <project path="external/tremolo" name="external_tremolo" remote="gummy" revision="ics" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="android_external_webkit" remote="gummy" revision="master" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" revision="ics" />

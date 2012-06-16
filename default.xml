@@ -15,22 +15,22 @@
 
   <remote name="kejar31"
         fetch="git://github.com/kejar31/" />
-		
+
   <remote name="sts"
        	fetch="git://github.com/STS-Dev-Team/" />
 
   <remote name="cd"
        	fetch="git://github.com/CyanogenDefy/" />
-		
+
   <remote name="hc"
         fetch="git://github.com/Hashcode/" />
-		
+
   <remote name="mm"
         fetch="git://github.com/MotoMagic/" />
         
   <remote name="cm9-d2g"
        	fetch="git://github.com/CM9-D2G/" />
-		
+
   <remote  name="omapzoom"
         fetch="git://git.omapzoom.org/"
         review="review.omapzoom.org" />
@@ -49,8 +49,8 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="ics" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
+  <project path="dalvik" name="platform_dalvik" remote="gummy" revision="ics" />
+  <project path="development" name="platform_development" remote="gummy" revision="master" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
@@ -69,40 +69,40 @@
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="gummy" revision="master" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
+  <project path="external/bluetooth/glib" name="external_bluetooth_glib" remote="gummy" revision="ics" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="android_external_chromium" remote="gummy" revision="ics" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="gummy" revision="ics" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="master" />
-  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/embunit" name="external_embunit" remote="gummy" revision="ics" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/freetype" name="external_freetype" remote="gummy" revision="ics" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
-  <project path="external/gtest" name="external_gtest" remote="gummy" revision="master" />
+  <project path="external/gtest" name="external_gtest" remote="gummy" revision="ics" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="android_external_icu4c" remote="cm" revision="ics" />
+  <project path="external/icu4c" name="external_icu4c" remote="gummy" revision="ics" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -141,10 +141,10 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/openssl" name="external_openssl" remote="gummy" revision="ics" />
   <project path="external/oprofile" name="android_external_oprofile" remote="gummy" revision="ics" />
   <project path="external/pcre" name="platform/external/pcre" />
-  <project path="external/ping" name="platform/external/ping" />
+  <project path="external/ping" name="external_ping" remote="gummy" revision="ics" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
@@ -153,34 +153,34 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="android_external_skia" remote="gummy" revision="master" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
+  <project path="external/skia" name="external_skia" remote="gummy" revision="ics" />
+  <project path="external/sonivox" name="external_sonivox" remote="gummy" revision="ics" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="android_external_srec" remote="cm" revision="ics" />
-  <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/srtp" name="platform/external/srtp"/>
+  <project path="external/stlport" name="external_stlport" remote="gummy" revision="ics" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tcpdump" name="external_tcpdump" remote="gummy" revision="ics" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/tremolo" name="platform/external/tremolo" />
+  <project path="external/tremolo" name="external_tremolo" remote="gummy" revision="ics" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="android_external_webkit" remote="gummy" revision="master" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" revision="ics" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="ics" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="ics" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="gummy" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="ics" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="gummy" revision="ics" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="gummy" revision="ics" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="ics" />
@@ -194,7 +194,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="gummy" revision="master"/>
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="gummy" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -216,7 +216,7 @@
   <project path="packages/apps/Grape" name="packages_apps_Grape" remote="gummy" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="gummy" revision="master" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Orange" name="packages_apps_Orange" remote="gummy" revision="master"/>
@@ -256,10 +256,11 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="packages/wallpapers/GummyBeam" name="packages_wallpapers_GummyBeam" remote="gummy" revision="master" />
   <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt/linux-x86/toolchain/linaro-4.7.1" name="prebuilt_linux-x86_toolchain_linaro-4.7.1" remote="gummy" revision="master" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="ics" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="ics" />
-  <project path="system/media" name="android_system_media" remote="cm" revision="ics" />
+  <project path="system/media" name="system_media" remote="gummy" revision="ics" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" /> 
   <project path="vendor/samsung" name="vendor_samsung" remote="gummy" revision="master" /> 

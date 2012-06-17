@@ -308,7 +308,7 @@
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus.git" remote="github" revision="lk-stable-3016" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="gummy" revision="ics" />
   <project path="kernel/motorola/stingray" name="motorola-kernel-stingray" remote="gummy" revision="ics" />
-  <project path="kernel/samsung/aries" name="GlitchKernel/Glitch" remote="github" revision="V14" />
+  <project path="kernel/samsung/aries" name="Efpophis/Glitch" remote="github" revision="skunkworks" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="github" revision="ics" />
   <project path="kernel/asus/tf101" name="asus_kernel_tf101" remote="gummy" revision="ics" />
   <project path="kernel/asus/tf201" name="asus_kernel_tf201" remote="gummy" revision="ics" />

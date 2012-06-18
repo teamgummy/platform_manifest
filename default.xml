@@ -67,7 +67,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="android_external_bash" remote="gummy" revision="ics" />
+  <project path="external/bash" name="android_external_bash" remote="cm" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="gummy" revision="master" />

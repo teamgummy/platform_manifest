@@ -311,6 +311,6 @@
   <project path="kernel/samsung/aries" name="Efpophis/Glitch" remote="github" revision="skunkworks" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="github" revision="ics" />
   <project path="kernel/asus/tf101" name="asus_kernel_tf101" remote="gummy" revision="ics" />
-  <project path="kernel/asus/tf201" name="asus_kernel_tf201" remote="gummy" revision="ics" />
+  <project path="kernel/asus/tf201" name="TF201-Kernel" remote="gummy" revision="master" />
 
 </manifest>

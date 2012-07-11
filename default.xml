@@ -278,8 +278,8 @@
   <!-- Team Gummy -->
   <project path="vendor/motorola/spyder" name="android_vendor_motorola_spyder" remote="gummy" revision="ics" />
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="gummy" revision="ics" />
-  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="ics" />
-  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics" />
+  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="gummy" revision="ics-leak" />
+  <project path="vendor/motorola/targa" name="android_vendor_motorola_targa" remote="gummy" revision="ics-leak" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="MotoICS"/>
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="gummy" revision="master" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="MotoICS" />
